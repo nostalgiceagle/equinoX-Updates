@@ -111,8 +111,8 @@
     <local name="SUPPORT_VOICE_COMMAND" value="true" />
     <local name="SUPPORT_HEIF_FORMAT" value="true" />
     <local name="SUPPORT_VIDEO_HDR" value="false" />
-    <local name="SUPPORT_ADVANCED_RECORDING_OPTIONS" value="false" />
-    <local name="SUPPORT_AUTO_HDR_MENU" value="true" />
+    <local name="SUPPORT_ADVANCED_RECORDING_OPTIONS" value="true" />
+    <local name="SUPPORT_AUTO_HDR_MENU" value="false" />
     <local name="SUPPORT_LEVEL_METER" value="true" />
     <local name="SUPPORT_QR_CODE_DETECTION" value="false" />
     <local name="SUPPORT_ZOOM_SHORTCUT" value="false" />

@@ -128,7 +128,7 @@
     <local name="SUPPORT_HEVC_VIDEO_ENCODER" value="true" />
     <local name="SUPPORT_LEVEL_METER" value="true" />
     <local name="SUPPORT_LIVE_BEAUTY_SKIN_COLOR" value="true" />
-    <local name="SUPPORT_AUTO_HDR_MENU" value="true" />
+    <local name="SUPPORT_AUTO_HDR_MENU" value="false" />
 
     <!-- Notch Animation -->
     <local name="DISPLAY_CUTOUT_ANIMATION_INFO" num-of-display-cutout="1" display-cutout-0-type="2" display-cutout-0-left="146" display-cutout-0-top="0" display-cutout-0-right="213" display-cutout-0-bottom="40" display-cutout-0-inner-left="307.3" display-cutout-0-inner-top="4.3" display-cutout-0-inner-right="344.7" display-cutout-0-inner-bottom="41.7" />

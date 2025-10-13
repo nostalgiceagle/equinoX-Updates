@@ -195,7 +195,7 @@
     <local name="SUPPORT_FRONT_SENSOR_CROP_SUPER_LARGE_RESOLUTION" value="true" />
     <local name="SUPPORT_TAP_TO_TAKE_PICTURES" value="true" />
     <local name="SUPPORT_QR_CODE_DETECTION" value="false" />
-    <local name="SUPPORT_AUTO_HDR_MENU" value="true" />
+    <local name="SUPPORT_AUTO_HDR_MENU" value="false" />
     <local name="QOS_TO_ROS_UPGRADE_SHOOTING_MODE_ORDER" value="true" />
 
     <local name="SUPPORT_AUTO_WATERMARK" value="true" />
