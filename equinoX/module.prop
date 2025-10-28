@@ -1,0 +1,7 @@
+id=camera_fixer
+name=Equinox
+version=100-Stable
+versionCode=1000
+author=Pritam
+description=Only for equinoX ROMs, to fix and upgrade ROM usability. 
+updateJson=https://raw.githubusercontent.com/nostalgiceagle/camerafeature/refs/heads/stable/update.json

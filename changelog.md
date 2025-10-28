@@ -12,3 +12,11 @@
 - (unrelated) Disable GPSU
 - Add Brust-shot support
 - Some other things, forgot
+
+### v4
+- Overhual module, it's no more for camera but whole UI
+- Implement script which will FSTRIM and optimize apps once in a week
+- Add banner, visible in KSUN
+- Change tree structure
+- Fix file sending issue in Telegram / Whatsapp
+- Way better than before

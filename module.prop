@@ -1,7 +1,0 @@
-id=camera_fixer
-name=Equinox Samsung Camera fixer
-version=30
-versionCode=300
-author=Pritam
-description=Only for equinoX ROMs, to fix and upgrade camera usability. 
-updateJson=https://raw.githubusercontent.com/nostalgiceagle/camerafeature/refs/heads/stable/update.json
