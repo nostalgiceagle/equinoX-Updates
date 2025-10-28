@@ -2,6 +2,7 @@
 <resources>
 
     <!-- Shootingmode -->
+    <local name="SHOOTING_MODE_FUN" back="FUN" front="FUN" enable="true" more="true" order="1" /> 
     <local name="SHOOTING_MODE_LIVE_FOCUS" enable="true" back="LIVE_FOCUS_LITE" front="LIVE_FOCUS_LITE" more="true" order="1" />
     <local name="SHOOTING_MODE_PHOTO" enable="true" back="PHOTO" front="PHOTO" more="false" order="2" />
     <local name="SHOOTING_MODE_VIDEO" enable="true" back="VIDEO" front="VIDEO" more="false" order="3" />
@@ -114,7 +115,7 @@
     <local name="SUPPORT_ADDITIONAL_EFFECTS_WITH_SCENE_DETECTION" value="false" />
 
     <!-- Etc. features -->
-    <local name="MAX_BURST_CAPTURE_COUNT" value="30" />
+    <local name="MAX_BURST_CAPTURE_COUNT" value="500" />
     <local name="CAMCORDER_ANTI_SHAKE" value="false" />
     <local name="CAMCORDER_FRONT_ANTI_SHAKE" value="false" />
     <local name="SUPPORT_QR_CODE_DETECTION" value="false" />
@@ -124,12 +125,24 @@
     <local name="SUPPORT_HEIF_FORMAT" value="true" />
     <local name="SUPPORT_SENSOR_CROP" value="true" />
     <local name="SUPPORT_VIDEO_HDR" value="false" />
-    <local name="SUPPORT_ADVANCED_RECORDING_OPTIONS" value="false" />
+    <local name="SUPPORT_ADVANCED_RECORDING_OPTIONS" value="true" />
     <local name="SUPPORT_HEVC_VIDEO_ENCODER" value="true" />
     <local name="SUPPORT_LEVEL_METER" value="true" />
     <local name="SUPPORT_LIVE_BEAUTY_SKIN_COLOR" value="true" />
     <local name="SUPPORT_AUTO_HDR_MENU" value="false" />
-
+    <local name="SUPPORT_VIDEO_SAVING_LENS_INFO" value="true" />
+    <local name="SUPPORT_QUICK_VIEW_PLUS" value="true" />
+    <local name="SUPPORT_SYSTEM_JPEG_ONLY" value="true" />
+    <local name="SUPPORT_STEREO_CAPTURE" value="false" />
+    <local name="SUPPORT_SMART_BEAUTY" value="true" />
+    <local name="SUPPORT_NIGHT_BEAUTY" value="true" />
+    <local name="SUPPORT_MULTI_MIC_SUPPORT" value="true" />
+    <local name="SUPPORT_KEEP_HIGH_PICTURE_RESOLUTION" value="true" />
+    <local name="SUPPORT_JPEGR_PICTURE_FORMAT" value="true" />
+    <local name="SUPPORT_BODY_BEAUTY" value="true" />
+    <local name="SUPPORT_VIDEO_STABILISATION_MENU_IN_SETTING" value="true" />
+    <local name="SUPPORT_QUICK_TAKE" value="true" />
+    
     <!-- Notch Animation -->
     <local name="DISPLAY_CUTOUT_ANIMATION_INFO" num-of-display-cutout="1" display-cutout-0-type="2" display-cutout-0-left="146" display-cutout-0-top="0" display-cutout-0-right="213" display-cutout-0-bottom="40" display-cutout-0-inner-left="307.3" display-cutout-0-inner-top="4.3" display-cutout-0-inner-right="344.7" display-cutout-0-inner-bottom="41.7" />
     <local name="DISPLAY_CUTOUT_POSITION" value="1" />
@@ -144,7 +157,7 @@
     <local name="TRANSITION_WIDE_TO_NORMAL_ANIMATION_DURATION" value="600" />
 
     <!-- Post Picture Processing -->
-    <local name="SUPPORT_POST_PICTURE_PROCESSING" value="false" />
+    <local name="SUPPORT_POST_PICTURE_PROCESSING" value="true" />
 
 
     <!-- Floating camera button -->
@@ -156,7 +169,7 @@
 
     <!-- Live Beauty features -->
     <local name="SUPPORT_LIVE_BEAUTY_IN_AUTO_MODE" value="true" />
-    <local name="SUPPORT_LIVE_BEAUTY_MANUAL_RESHAPE" value="false" />
+    <local name="SUPPORT_LIVE_BEAUTY_MANUAL_RESHAPE" value="true" />
 
     <!-- Live BOKEH EFFECT -->
     <local name="SUPPORT_SINGLE_BOKEH_EFFECT" value="false" />

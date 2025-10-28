@@ -11,6 +11,7 @@ print_modname() {
 }
 
 on_install() {
+  rm -rf /data/apex
   ui_print "- Detecting device via bootloader..."
   BOOTLOADER=$(getprop ro.boot.bootloader)
   ui_print "  Bootloader: $BOOTLOADER"

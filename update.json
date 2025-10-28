@@ -1,6 +1,6 @@
 {
-  "version": "20",
-  "versionCode": 200,
+  "version": "30",
+  "versionCode": 300,
   "zipUrl": "https://raw.githubusercontent.com/nostalgiceagle/camerafeature/refs/heads/stable/module.zip",
   "changelog": "https://raw.githubusercontent.com/nostalgiceagle/camerafeature/refs/heads/stable/changelog.md"
 }

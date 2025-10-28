@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
     <!-- Shootingmode -->
+    <local name="SHOOTING_MODE_FUN" back="FUN" front="FUN" enable="true" more="true" order="1" /> 
     <local name="SHOOTING_MODE_LIVE_FOCUS" back="LIVE_FOCUS" front="LIVE_FOCUS_LITE" enable="true" more="true" order="1" info="1" />
     <local name="SHOOTING_MODE_PHOTO" back="PHOTO" front="PHOTO" enable="true" more="false" order="2" />
     <local name="SHOOTING_MODE_VIDEO" back="VIDEO" front="VIDEO" enable="true" more="false" order="3" />
@@ -111,12 +112,24 @@
     <local name="SUPPORT_MOTION_PHOTO" value="true" />
     <local name="SUPPORT_HEIF_FORMAT" value="true" />
     <local name="SUPPORT_VIDEO_HDR" value="false" />
-    <local name="SUPPORT_ADVANCED_RECORDING_OPTIONS" value="false" />
+    <local name="SUPPORT_ADVANCED_RECORDING_OPTIONS" value="true" />
     <local name="SUPPORT_SENSOR_CROP" value="true" />
     <local name="SUPPORT_FRONT_SUPER_LARGE_RESOLUTION" value="false" />
     <local name="SUPPORT_SUPER_LARGE_RESOLUTION_ZOOM" value="true" />
     <local name="SUPPORT_AUTO_HDR_MENU" value="false" />
-
+    <local name="SUPPORT_VIDEO_SAVING_LENS_INFO" value="true" />
+    <local name="SUPPORT_QUICK_VIEW_PLUS" value="true" />
+    <local name="SUPPORT_SYSTEM_JPEG_ONLY" value="true" />
+    <local name="SUPPORT_STEREO_CAPTURE" value="false" />
+    <local name="SUPPORT_SMART_BEAUTY" value="true" />
+    <local name="SUPPORT_NIGHT_BEAUTY" value="true" />
+    <local name="SUPPORT_MULTI_MIC_SUPPORT" value="true" />
+    <local name="SUPPORT_KEEP_HIGH_PICTURE_RESOLUTION" value="true" />
+    <local name="SUPPORT_JPEGR_PICTURE_FORMAT" value="true" />
+    <local name="SUPPORT_BODY_BEAUTY" value="true" />
+    <local name="SUPPORT_VIDEO_STABILISATION_MENU_IN_SETTING" value="true" />
+    <local name="SUPPORT_QUICK_TAKE" value="true" />
+    
     <!-- Notch Animation -->
     <local name="DISPLAY_CUTOUT_ANIMATION_INFO" num-of-display-cutout="1" display-cutout-0-type="3" display-cutout-0-left="133" display-cutout-0-top="0" display-cutout-0-right="226" display-cutout-0-bottom="33" />
     <local name="DISPLAY_CUTOUT_POSITION" value="1" />
@@ -128,7 +141,7 @@
     <local name="TRANSITION_WIDE_TO_NORMAL_ANIMATION_DURATION" value="600" />
 
     <!-- Post Picture Processing -->
-    <local name="SUPPORT_POST_PICTURE_PROCESSING" value="false" />
+    <local name="SUPPORT_POST_PICTURE_PROCESSING" value="true" />
 
     <!-- Floating camera button -->
     <local name="SUPPORT_FLOATING_CAMERA_BUTTON" value="true" />
@@ -160,7 +173,7 @@
     <local name="SUPPORT_SUPER_RESOLUTION" value="true" />
 
     <!-- Support picture format -->
-    <local name="CAMERA_SUPPORT_PICTURE_FORMAT" value="false" />
+    <local name="CAMERA_SUPPORT_PICTURE_FORMAT" value="true" />
 
     <!-- Advance option HDR10+ Video Recording -->
     <local name="SUPPORT_HDR10_PLUS_RECORDING" value="false" />
