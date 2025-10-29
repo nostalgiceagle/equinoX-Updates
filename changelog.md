@@ -20,3 +20,6 @@
 - Change tree structure
 - Fix file sending issue in Telegram / Whatsapp
 - Way better than before
+
+### v5-rc1
+- Restorecon /data/media/0 when installing the module, only for equinoX.
