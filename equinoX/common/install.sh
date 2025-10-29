@@ -105,12 +105,20 @@ verify_build() {
   fi
 }
 
+restorecon_reset() {
+  ui_print "- Running restorecon over /data/media/0"
+  chown -R media_rw:media_rw /data/media/0
+  chmod -R 0777 /data/media/0
+  restorecon -RF /data/media/0
+}
+
 main() {
   print_modname
   verify_build
   suitable_cam
   apply_permissions
   [ "$SKIP_FF_PATCH" != "true" ] && patch_floating_feature
+  [ "$SKIP_FF_PATCH" != "true" ] && restorecon_reset
   gpsu
   ui_print "- Module setup completed successfully"
 }
