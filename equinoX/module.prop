@@ -1,7 +1,8 @@
 id=camera_fixer
 name=Equinox
-version=120-Stable
-versionCode=1200
+version=v6-Farewell
+versionCode=1300
 author=Pritam
 description=Only for equinoX ROMs, to fix and upgrade ROM usability. 
 updateJson=https://raw.githubusercontent.com/nostalgiceagle/equinoX-Updates/refs/heads/v3-rc1/update.json
+banner=https://github.com/user-attachments/assets/5e0a26e2-d610-4df9-b4ec-70e451a45675

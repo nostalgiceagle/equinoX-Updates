@@ -23,3 +23,10 @@
 
 ### v5-rc1
 - Restorecon /data/media/0 when installing the module, only for equinoX.
+
+### v6-Farewell
+- Added Samsung Cloud
+- Added OPPO Sans font
+
+Thank you for using equinoX! ❤
+- Last of v3, no more updates will be provided. EOL

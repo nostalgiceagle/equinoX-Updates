@@ -2,4 +2,4 @@
 
 <img width="4008" height="1580" alt="1001344970" src="https://github.com/user-attachments/assets/5e0a26e2-d610-4df9-b4ec-70e451a45675" />
 
-- ### Current version: v5-rc1
+- ### Current version: v6-Farewell
